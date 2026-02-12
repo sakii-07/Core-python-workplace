@@ -45,18 +45,19 @@ c4 = complex(0o1234, 0xFace)
 # num = int(input("Enter the any decimal number "))
 # Binary conversion
 r1 = bin(num)
-# print("binary : ",r1)
+print("binary : ",r1)
 
 # Octal conversion
 r2 = oct(num)
-# print("Octal : ",r2)
+print("Octal : ",r2)
 
 # Hexadecimal conversion
 r3 = hex(num)
-# print("Hexadecimal : ",r3)
+print("Hexadecimal : ",r3)
 
 
 # 2. accept binary, octal or hexadecimal and conver it into decimal number display on terminal 
 number = input("Enter the any binary, octal or hexadecimal number (with 0b, 0o, 0x) : ")
-decimal = int(number,0)
+base = int(input("Enter the base for binary 2, octal 8, hexadecimal 16 : "))
+decimal = int(number,base)
 print("Decimal number is : ",decimal)
