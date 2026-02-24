@@ -57,3 +57,31 @@ print(id(overs))
 print(id(petrol_price))
 print(id(temp))
 print(id(runs))
+
+# types of typecasting
+#  1) internal or implicite 
+#  2) external or explicite - int, float, bool, complex, eval, list, tuple, disk, set
+
+num = complex(input("Enter number"))
+print(num)
+print(type(num))
+
+num1 = int(input("Enter number")) # if we gives float number then it gives error
+print(num1)
+print(type(num1))
+
+num2 = float(input("Enter number")) # if we gives int number then it gives float
+print(num2)
+print(type(num2))
+
+num3 = list(input("Enter number")) # 
+print(num3)
+print(type(num3))
+
+num4 = str(input("Enter number ")) # 
+print(num4)
+print(type(num4))
+
+str1 = "10+5j"
+print(bool(str1)) # it works with all datatypes but not with int and float. we can not convert complex to int and float
+print(type(str1))
