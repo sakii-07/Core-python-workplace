@@ -21,15 +21,15 @@ s1 = s.title() # Hello Python Learners
 print(s1)
 
 #   5. strip().
-#   lstrip() → removes spaces from left side
-#   rstrip() → removes spaces from right side
+'''  lstrip() → removes spaces from left side
+  rstrip() → removes spaces from right side'''
 s = " Python String Functions "            
 s1 = s.strip() # Python String Functions
 print(s1)
 
 #   6. rstrip()
-#   Leading spaces - Spaces that appear before the text starts.
-#   Trailing spaces - Spaces that appear after the text ends.
+ ''' Leading spaces - Spaces that appear before the text starts.
+  Trailing spaces - Spaces that appear after the text ends.'''
 s = "Hello World "
 s1 = s.rstrip() # Hello World
 print(s1)

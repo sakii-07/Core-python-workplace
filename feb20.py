@@ -25,9 +25,9 @@ print(type(b), id(b)) # <class 'bool'> 140736018696960
 b = False
 print(type(b), id(b)) # <class 'bool'> 140736018696992
 
-# list - List is mutable, heterogeneous colletion of element, insertion is maintained 
-# and duplicates are allowed
-
+'''list - List is mutable, heterogeneous colletion of element, insertion is maintained 
+and duplicates are allowed. we can fetch data using indexing and slicing and sequence data type
+'''
 my_list = []
 print(type(my_list),id(my_list))
 
