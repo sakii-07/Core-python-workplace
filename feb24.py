@@ -1,3 +1,56 @@
+
+'''List 
+-- collective datatype
+-- hectrogenious collection
+-- enclosed by [] sepratred by(,)
+-- order
+-- mutable
+-- allow Duplicates
+-- we can featch data using indexing and slicing
+-- sequence Datatype'''
+
+l1 = []
+print(type(l1))
+
+l2 = [10,20,30]
+print(l2)
+print(type(l2))
+
+l3 = [10,20,10,10]
+print(l3)
+
+l4 = [10, 10.5, "Ritik", 10+20j, True ,[10,20,30],(1,2,3),{3,9,6,6,6},{1:1, 2:4}]
+
+print(l4)
+
+# fetch "Ritik"
+print(l4[2])
+
+# fetch {3,9,6}
+print(l4[-2][2])
+print(l4[-1][1])
+
+l5 = ["10","20","30"]
+
+# Method to add element in list 
+# 1. append
+# 2. insert
+# 3. extend 
+
+# l5.append([100,200,"Name"])
+
+l5 = ["10","20","30"]
+
+l5.insert(2,[1000,2000])  # ['10', '20', 1000, '30']     # ['10', '20', [1000, 2000], '30']
+
+l5.extend([1000])   # ['10', '20', '30', 100, 200, 300]
+
+l5.insert(20, 300)
+
+print(l5)  
+
+print(l5[-1])
+
 '''
 list ---> collective datatype
           heterogeneous collection of element

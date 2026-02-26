@@ -28,7 +28,7 @@ s1 = s.strip() # Python String Functions
 print(s1)
 
 #   6. rstrip()
- ''' Leading spaces - Spaces that appear before the text starts.
+''' Leading spaces - Spaces that appear before the text starts.
   Trailing spaces - Spaces that appear after the text ends.'''
 s = "Hello World "
 s1 = s.rstrip() # Hello World
