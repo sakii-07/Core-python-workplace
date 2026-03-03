@@ -12,7 +12,7 @@ print(t) # (10, 20, 30, 40, 50, 50)
 print(t[1]) # 20
 print(len(t)) # 6
 
-# single element in tuple gives data type which type of data insered
+# single element in tuple gives data type which type of data inserted
 t1 = (10)
 print(type(t1)) # <class 'int'>
 
@@ -118,3 +118,16 @@ temp = a
 a = b
 b = temp
 print("After swapping : a = ",a,"b = ",b)
+
+# swap two variables  using XOR operator
+a = 10
+b = 20
+print("before swapping : a = ",a,"b = ",b)
+a = a ^ b
+b = a ^ b
+a = a ^ b
+print("After swapping : a = ",a,"b = ",b)
+
+i = [10,20,30]
+var1  = i.pop(10) # IndexError: pop index out of range
+var2 = i.remove(100) # ValueError: list.remove(x): x not in list
