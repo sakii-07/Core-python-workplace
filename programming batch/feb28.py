@@ -762,7 +762,7 @@ A B C D E
 
 '''
 num = 2
-for r in range(1,100):
+for r in range(1,6):
     for c in range(1,r+1):
         if num % c == 0:
             print(num,end=" ")

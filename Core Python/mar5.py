@@ -10,33 +10,33 @@ movie_db["Dhurandar"] = dhurandar_cast
 movie_db["Salaar"] = salaar_cast
 movie_db["Singham_again"] = singham_again_cast
 
-# print(movie_db["Chhaava"])
+print(movie_db["Chhaava"])
 
 # Task 1 :- Display first actor name from dhurandar movie
 
-# # using get method
-# l = movie_db.get("Dhurandar")
-# print(l[0]) # Ranveer Singh
+# using get method
+l = movie_db.get("Dhurandar")
+print(l[0]) # Ranveer Singh
 
-# # using indexing
-# print(movie_db["Dhurandar"][0]) # Ranveer Singh
+# using indexing
+print(movie_db["Dhurandar"][0]) # Ranveer Singh
 
-# # Display the sirname of first actor name form dhurandar
-# print(movie_db["Dhurandar"][0][8:]) # Singh
+# Display the sirname of first actor name form dhurandar
+print(movie_db["Dhurandar"][0][8:]) # Singh
 
-# # Display the first actor name in reverse
-# print(movie_db["Dhurandar"][0][::-1]) # hgniS reevnaR
+# Display the first actor name in reverse
+print(movie_db["Dhurandar"][0][::-1]) # hgniS reevnaR
 
-# # Display the 'r' letter of "Ranveer Singh"
-# print(movie_db["Dhurandar"][0][6]) # r
+# Display the 'r' letter of "Ranveer Singh"
+print(movie_db["Dhurandar"][0][6]) # r
 
 # Task 2 - Display names of all actors and actress on console one by one
-# for movie,actor in movie_db.items():
-#     print(movie,"---->")
-#     for name in actor:
-#         print("\t",name)
-#     print("---"*20)
-    # print("=="*20)
+for movie,actor in movie_db.items():
+    print(movie,"---->")
+    for name in actor:
+        print("\t",name)
+    print("---"*20)
+    print("=="*20)
 '''
 Chhaava ---->
          Vicky Kaushal
@@ -75,14 +75,14 @@ Singham_again ---->
 ------------------------------------------------------------
 '''
 
-# for movie,actor in movie_db.items():
-#     print(movie,"---->")
-#     for name in actor:
-#         n = name.split()
-#         print("\t",name,":-")
-#         for i in n:
-#             print("\t\t",i)
-#     print("---"*20)
+for movie,actor in movie_db.items():
+    print(movie,"---->")
+    for name in actor:
+        n = name.split()
+        print("\t",name,":-")
+        for i in n:
+            print("\t\t",i)
+    print("---"*20)
 '''
 Chhaava ---->
          Vicky Kaushal :-
@@ -175,16 +175,16 @@ Singham_again ---->
 ------------------------------------------------------------
 '''
 
-# for movie,actor in movie_db.items():
-#     print(movie,"---->")
-#     for name in actor:
-#         n = name.split()
-#         print("\t",name,":-")
-#         for i in n:
-#             print("\t\t",i)
-#             for j in i:
-#                 print("\t\t\t",j)
-#     print("---"*20)
+for movie,actor in movie_db.items():
+    print(movie,"---->")
+    for name in actor:
+        n = name.split()
+        print("\t",name,":-")
+        for i in n:
+            print("\t\t",i)
+            for j in i:
+                print("\t\t\t",j)
+    print("---"*20)
 '''
 Chhaava ---->
          Vicky Kaushal :-
@@ -204,20 +204,20 @@ Chhaava ---->
                          l
 ------------------------------------------------------------
 '''
-# count = 0
-# for movie,actor in movie_db.items():
-#     print(movie,"---->")
-#     for name in actor:
-#         # n = name.split()
-#         # print("\t",name,":-")
-#         for i in name:
-#             # print("\t\t",i)
-#             for j in i:
-#                 if j == 'a':
-#                     count = count + 1
-#         if count > 2:
-#             print(name)
-#     print("---"*20)
+count = 0
+for movie,actor in movie_db.items():
+    print(movie,"---->")
+    for name in actor:
+        # n = name.split()
+        # print("\t",name,":-")
+        for i in name:
+            # print("\t\t",i)
+            for j in i:
+                if j == 'a':
+                    count = count + 1
+        if count > 2:
+            print(name)
+    print("---"*20)
 
 
 # level 2 = {int,dict{rollno,values}}
@@ -227,16 +227,16 @@ div_A = {1 : {"name":"jay","sub":["maths","phy","chem"],"marks":[89,71,99]},
          3 : {"name":"kiran","sub":["maths","phy","chem"],"marks":[89,99,99]},
          }
 
-# for roolNo, student in div_A.items():
-#     name = student["name"]
-#     mark = student["marks"]
+for roolNo, student in div_A.items():
+    name = student["name"]
+    mark = student["marks"]
 
-#     avg = sum(mark)/ len(mark)
-#     print(name,avg)
+    avg = sum(mark)/ len(mark)
+    print(name,avg)
 
-# for roolNo, student in div_A.items():
-#     for key,values in student:
-#         print(key,"---->",values)
+for roolNo, student in div_A.items():
+    for key,values in student:
+        print(key,"---->",values)
 
 for rollNo, student in div_A.items():
     mark = student.get("marks")
