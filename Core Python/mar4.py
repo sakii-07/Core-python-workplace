@@ -22,7 +22,7 @@ methods of dictionary ----> 1) get() - access single element in dictionary
                             3) values() - returns the all values of dictionary
                             4) items() - returns the all keys and value of dictionary
 '''
-# level o dictionary
+# level o dictionary - dict student roll no and name
 stud_db = {}
 stud_db[1]="sakshi"
 stud_db[2]="amruta"

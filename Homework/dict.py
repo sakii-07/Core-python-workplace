@@ -1,5 +1,5 @@
 '''
-create dictionary of 2025 movies
+create dictionary of 2025 movies - level 1 dict
 '''
 movie_db = {}
 
@@ -79,8 +79,8 @@ Singham_again
 # task :- Display the names of the movies of 'Ranveer Singh' and the total number of movies.
 count = 0
 for k,v in movie_db.items():
-    for i in v:
-        if i == "Ranveer Singh":
+    for name in v:
+        if name == "Ranveer Singh":
             count = count + 1
             print(k)
 print("The number of movies : ",count)

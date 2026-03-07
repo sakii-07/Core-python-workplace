@@ -731,16 +731,40 @@ A B C D E
    * *
     *
 '''
-sp =5
-for r in range(1,6):
-    for k in range(1,(sp-r)+1):
-        print(" ",end="")
+# sp =5
+# for r in range(1,6):
+#     for k in range(1,(sp-r)+1):
+#         print(" ",end="")
+#     for c in range(1,r+1):
+#         print("*",end=" ")
+#     print()
+# for r in range(5,0,-1):
+#     for k in range(1,(sp-r)+1):
+#         print(" ",end="")
+#     for c in range(1,r+1):
+#         print("*",end=" ")
+#     print()
+
+'''
+1 
+2 3
+4 5 6
+7 8 9 10
+'''
+# num = 1
+# for r in range(1,5):
+#     for c in range(1,r+1):
+#         print(num,end=" ")
+#         num=num+1
+#     print()
+
+'''
+
+'''
+num = 2
+for r in range(1,100):
     for c in range(1,r+1):
-        print("*",end=" ")
-    print()
-for r in range(5,0,-1):
-    for k in range(1,(sp-r)+1):
-        print(" ",end="")
-    for c in range(1,r+1):
-        print("*",end=" ")
+        if num % c == 0:
+            print(num,end=" ")
+        num=num+1
     print()
