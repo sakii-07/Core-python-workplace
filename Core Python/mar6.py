@@ -12,7 +12,13 @@ Operators :- used for data processing
             6) special
 
 1) Arithmentic opeartor in python :->
-                +, -, *, /, //, %
+                + : add two or more numbers and returns the sum of the values.
+                - : subtract one number from another and returns the difference between the values.
+                * : multiply two numbers and returns the product of the values.
+                / : divide one number by another and it always returns the result in float (decimal) form.
+                //: divide two numbers and returns only the integer part of the result, removing the decimal part.
+                % : return the reminder of devision
+                **: raise a number to the power of another number.
     Note :
         division :- output of division opeartor is always in float
         eg. 6/3 = 2.0
