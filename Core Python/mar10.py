@@ -35,26 +35,26 @@ Flow control statments ---->
                                     statements
 '''
 
-# # WAP to print given number is even or odd
-# num = -12
-# if num % 2 == 0 :
-#     print(F"Given number : {num} is even")
-# else:
-#     print(F"Given number : {num} is odd")
+# WAP to print given number is even or odd
+num = -12
+if num % 2 == 0 :
+    print(F"Given number : {num} is even")
+else:
+    print(F"Given number : {num} is odd")
 
 # you have a number if the number is divisible by 3 display "FIZZ"
 # if the number is divisible by 5 display "BUZZ"
 # if the number is divisible by 3 and 5 both display "FIZZBUZZ"
 
-# num = 16
-# if (num % 3 == 0) and (num % 5 == 0):
-#     print("FIZZBUZZ")
-# elif num % 3 == 0 :
-#     print("FIZZ")
-# elif num % 5 == 0 :
-#     print("BUZZ")
-# else:
-#     print("not divisible by 3 and 5")
+num = 16
+if (num % 3 == 0) and (num % 5 == 0):
+    print("FIZZBUZZ")
+elif num % 3 == 0 :
+    print("FIZZ")
+elif num % 5 == 0 :
+    print("BUZZ")
+else:
+    print("not divisible by 3 and 5")
 
 
 
