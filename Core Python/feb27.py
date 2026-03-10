@@ -10,7 +10,7 @@ Set ----> Set is mutable, heterogenious collection of immutable element where in
 methods ----> 1) add()
               2) remove()
               3) union()
-              4) nterseption()
+              4) interseption()
 '''
 # # how to create empty set :- varName = set()
 # v = set()
