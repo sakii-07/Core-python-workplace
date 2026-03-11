@@ -52,7 +52,7 @@ if count == 0:
     print(num,"is a prime number")
 else :
     print(num,"is not a prime number") # 98 is not a prime number
-    
+
 
 # find prime number between 1 to 20
 
@@ -110,3 +110,13 @@ for num in range(10,31):
 23
 29
 '''
+
+# fabonnaci series
+n = 10
+
+a = 0
+b = 1
+for i in range(n):
+    print(a)
+    c = a+b
+    a,b = b,c
