@@ -46,50 +46,50 @@ Opeartors :-
     7) Ternary :- 
 '''
 
-# # Example on logical operator 
-# a = True
-# b = False
-# print(a and b) # False
+# Example on logical operator 
+a = True
+b = False
+print(a and b) # False
 
-# a = True
-# b = True
-# print(a and b) # True
+a = True
+b = True
+print(a and b) # True
 
-# a = False
-# b = False
-# print(a and b) # False
+a = False
+b = False
+print(a and b) # False
 
-# a = False
-# b = True
-# print(a and b) # False
+a = False
+b = True
+print(a and b) # False
 
-# # Example on bitwise operator
-# print(5 & 7) # 5
+# Example on bitwise operator
+print(5 & 7) # 5
 
-# print(5 & 3) # 1
+print(5 & 3) # 1
 
-# print(5 | 7) # 7
+print(5 | 7) # 7
 
-# print(5 ^ 7) #  2
+print(5 ^ 7) #  2
 
-# print(6 >> 2) # 1
+print(6 >> 2) # 1
 
-# print(3 << 2) # 12
+print(3 << 2) # 12
 
-# # Example on special operator
+# Example on special operator
 
-# print("I" in "Insta") # True
-# print(10 in [35,64,10]) # True
+print("I" in "Insta") # True
+print(10 in [35,64,10]) # True
 
-# a = 123
-# b = 123
-# print(a == b) # True
-# print(id(a) == id(b)) # True
-# print(a is b) # True
+a = 123
+b = 123
+print(a == b) # True
+print(id(a) == id(b)) # True
+print(a is b) # True
 
-# a = -123
-# b = -123
-# print(a == b) # True
-# print(id(a) == id(b)) # True
-# print(id(a), id(b))
-# print(a is b) # True
+a = -123
+b = -123
+print(a == b) # True
+print(id(a) == id(b)) # True
+print(id(a), id(b))
+print(a is b) # True

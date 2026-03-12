@@ -120,3 +120,76 @@ for i in range(n):
     print(a)
     c = a+b
     a,b = b,c
+
+# Prime Number
+
+num = 24
+count = 0
+
+for i in range(2,num//2 +1):
+    if num% i == 0:
+        count += 1
+        break
+if count == 0:
+    print(num,"is a prime number")
+else:
+    print(num,"is a not prime number")
+
+# Fibonacci
+n = 10
+a = 0
+b = 1
+
+for i in range(n):
+    print(a)
+    c = a + b
+    a,b = b,c
+
+# Armstrong Number
+num = 152
+s_num = str(num)
+a_num = 0
+
+for i in s_num:
+    a_num = a_num + int(i) ** len(s_num)
+
+n = int(a_num)
+if n == num:
+    print(num,"is a armstrong number")
+else:
+    print(num,"is a not armstrong number")
+
+
+# Palindrome
+num = 121
+s_num = str(num)
+r_num = " "
+
+for i in s_num:
+    r_num = i + r_num
+
+n = int(r_num)
+
+if num == n:
+    print(num,"is a palindrome number")
+else :
+    print(num,"is a not palindrome number")
+
+# Perfect Number
+num = 6
+p_num = 0
+for i in range(1,num):
+    if num % i == 0:
+        p_num = p_num + i
+
+if num == p_num:
+    print(num,"is a parfect number")
+else:
+    print(num,"is a not perfect number")
+
+# Factorial
+num = 5
+fact = 1
+for i in range(1, num+1):
+        fact *= i
+print(fact)
