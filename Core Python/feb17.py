@@ -101,4 +101,17 @@
 #  	Purpose: sort the String .
 #  	Syntax: len(v_name) 
   	
-  	
+l1 = [1,2,3,4,2,4,5,6,7,5,6,7,8,45,3,4,5]
+duplicates = []
+for i in l1:
+    if l1.count(i)>1 and i not in duplicates:
+        duplicates.append(i)
+print(duplicates)
+
+
+l1 = [1,2,3,4,2,4,5,6,7,5,6,7,8,45,3,4,5]
+unique = []
+for i in l1:
+    if l1.count(i)==1 :
+        unique.append(i)
+print(unique)

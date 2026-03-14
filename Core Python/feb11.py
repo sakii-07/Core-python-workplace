@@ -1,6 +1,6 @@
 # print(3 * 'ab')
 # print('Hello ' + 'World')
-# print('Python'[-1])
+print('Python'[-1])
 # print('Hello' - 'World')
 # print(3/0)
-print(5 == 5)
+# print(5 == 5)

@@ -42,7 +42,7 @@ print(c4) # (668+64206j)
 
 # Homework
 # 1.accept decimal numbers from console and convert that into binary,ocat,hexadecimal number system and display back on terminal
-# num = int(input("Enter the any decimal number "))
+num = int(input("Enter the any decimal number "))
 # Binary conversion
 r1 = bin(num)
 print("binary : ",r1)
