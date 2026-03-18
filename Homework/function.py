@@ -13,7 +13,7 @@ Enter the number : 12
 '''
 
 # Create a function which accepts number from user and find given number is prime or not ?
-
+# prime number :  is a number greater than 1 that has only two factors - 1 and itself.
 def prime(num):
     count = 0
     for i in range(2,num//2 +1):
@@ -36,6 +36,7 @@ Enter the number : 90
 '''
 
 # Create a function which accepts number from user and find given number is palindrome or not
+# Palindrome : is a word, number, or sequence that reads the same forward and backward.
 def palindrome(num):
     s_num = str(num)
     r_num = " "
@@ -59,6 +60,7 @@ Enter the number : 345
 '''
 
 # Create a function which accepts number from user and find given number is Armstrong or not
+# Armstrong number : is a number that is equal to the sum of its digits raised to a power.
 def armstrong(num):
     s_num = str(num)
     sum = 0
@@ -82,6 +84,7 @@ Enter the number : 153
 '''
 
 # Create a function which accepts number from user and find factorial of given number
+# Factorial : is the product of all positive integers from 1 to a given number.
 def factorial(num):
     fact = 1
     for i in range(1,num+1):
@@ -98,6 +101,7 @@ factorial of give number :  3628800
 '''
 
 # Create a function which accepts number from user and find Fibonacci series of given number
+# Fibonacci series : is a sequence where each number is the sum of the previous two numbers.
 def fabonacci(num):
     a = 0
     b = 1
@@ -116,6 +120,7 @@ Enter the number : 15
 '''
 
 # Create a function which accepts number from user and find given number is perfect or not
+# Perfect number : is a number that is equal to the sum of its proper divisors (excluding itself).
 def perfect(num):
     sum = 0
     for i in range(1,num):
@@ -137,6 +142,7 @@ Enter the number : 10
 '''
 
 # Create a function which accepts number from user and find given number is strong or not
+# Strong number : is a number whose sum of the factorials of its digits is equal to the number itself.
 def strong(num):
     s_num = str(num)
     sum = 0
@@ -163,6 +169,7 @@ Enter the number : 145
 '''
 
 # Create a function which accepts number from user and find given number is perfect square or not ?
+# Perfect square : is a number that is the product of an integer multiplied by itself.
 def perfectSquare(num):
     for i in range(1,num+1):
         if i * i == num:
@@ -214,6 +221,7 @@ Enter the number : 200
 '''
 
 # Create a function which accepts two string from user and find given string is anagram or not
+# Anagram : is a word or string formed by rearranging the letters of another word using all the same letters.
 def anagram(str1,str2):
     if sorted(str1) == sorted(str2):
         print("Given string is angram string")
