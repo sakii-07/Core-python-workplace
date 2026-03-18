@@ -22,9 +22,9 @@
               3) continue - it will skip current iteration
                    
 '''
-# # WAP to print 1 to 5 on console using while loop
-# var = 1
-# while(var <= 5):
-#     print(var)
-#     var += 1
+# WAP to print 1 to 5 on console using while loop
+var = 1
+while(var <= 5):
+    print(var)
+    var += 1
 
