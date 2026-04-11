@@ -9,7 +9,7 @@ Dictionary :- Dictionary is mutable, heterogenious collection of element where o
 
               key must be immutable datatype, values may mutable or immutable.
 
-              immutable datatypes :- int, float, complex, bool, string,    tuple, frozen set
+              immutable datatypes :- int, float, complex, bool, string, tuple, frozen set
 
 Q. how to create empty dict?
   varname = {}

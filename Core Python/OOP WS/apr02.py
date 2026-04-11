@@ -36,25 +36,25 @@ Types of variable in class :-
 3) local :- Local variables are the varaibles which are created to hold some data temporary
 '''
 
-# class Student:
+class Student:
 
-#     collage = "TKA"
+    collage = "TKA"
 
-#     def __init__(self,r,n):
-#         self.roll=r
-#         self.name=n
+    def __init__(self,r,n):
+        self.roll=r
+        self.name=n
 
-# s1 = Student(1,"sakshi")
-# s2 = Student(2,"sojar")
+s1 = Student(1,"sakshi")
+s2 = Student(2,"sojar")
 
-# print(s1.collage) # TKA
-# s1.collage = "pune"
-# print(s1.collage) # pune
-# print(s2.collage) # TKA
-# print(s1.roll) # 1
-# Student.collage = "pune"
-# print(Student.collage) # pune
-# print(s2.collage) # pune
+print(s1.collage) # TKA
+s1.collage = "pune"
+print(s1.collage) # pune
+print(s2.collage) # TKA
+print(s1.roll) # 1
+Student.collage = "pune"
+print(Student.collage) # pune
+print(s2.collage) # pune
 
 '''
 Method ----> Method is a function which is return inside a class

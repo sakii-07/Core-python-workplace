@@ -1,6 +1,6 @@
 '''
 Higher order function :-
-            1) map - used to mapping data and lnght of the both sequence is always same
+            1) map - used to mapping data and lenght of the both sequence is always same
             2) filter
             3) reduced
 '''
