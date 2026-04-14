@@ -18,4 +18,17 @@ commands --->
     git config --global user.email"username"
     git config --list
     git clone 
+    cd repository_name
+    ls -a  ---> used to see hidden files
+    git status
+
+for creating pull request
+    git branch 
+    make changes on file
+    git add .
+    git commit -m ""
+    git commit origin branchname
+
+    go to ragini github and create pull requestv 
+    
 '''
