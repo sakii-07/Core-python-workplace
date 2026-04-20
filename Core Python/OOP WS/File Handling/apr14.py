@@ -33,113 +33,113 @@ i) text file --> modes of file
 ii) Binary files --> for binary files (images, video, pdf, audio) also all modes are same
                         rb,wb,ab,rb+,wb+,ab+
 '''
-# fd = open("filename.txt", mode="?")
+fd = open("filename.txt", mode="?")
 
 # 1) read() : It will read all file at a time
-# data = fd.read()
-# for i in data:
-#     print(i)
+data = fd.read()
+for i in data:
+    print(i)
 
 # Example
-# try:
-#     fd = open("data.txt","r")
-#     data = fd.read()
+try:
+    fd = open("data.txt","r")
+    data = fd.read()
 
-# except FileNotFoundError:
-#     print("File not found")
-# else:
-#     print("File opend successfully")
-#     print(data)
-# finally:
-#     # if 'fd' in locals():
-#       fd.close()
-#     print("File closed")
-# '''
-# File opend successfully
-# 1,sakshi,89
-# 2,sojar,78
-# 3,pranjali,68
-# File closed
-# File opend successfully'''
+except FileNotFoundError:
+    print("File not found")
+else:
+    print("File opend successfully")
+    print(data)
+finally:
+    if 'fd' in locals():
+      fd.close()
+    print("File closed")
+'''
+File opend successfully
+1,sakshi,89
+2,sojar,78
+3,pranjali,68
+File closed
+File opend successfully'''
 
 # read first % characters from files
-# data = fd.read(5)
-# for i in data:
-#     print(i)
+data = fd.read(5)
+for i in data:
+    print(i)
 
 # Example
-# try:
-#     fd = open("data.txt","r")
-#     line = fd.read(5)
+try:
+    fd = open("data.txt","r")
+    line = fd.read(5)
 
-# except FileNotFoundError:
-#     print("File not found")
-# else:
-#     print("File opend successfully")
-#     print(line)
-# finally:
-#     if 'fd' in locals():
-#       fd.close()
-#     print("File closed")
-# '''
-# File opend successfully
-# 1,sak
-# File closed
-# '''
+except FileNotFoundError:
+    print("File not found")
+else:
+    print("File opend successfully")
+    print(line)
+finally:
+    if 'fd' in locals():
+      fd.close()
+    print("File closed")
+'''
+File opend successfully
+1,sak
+File closed
+'''
 # 2) readline() : Read first line from a file
-# data = fd.readline()
+data = fd.readline()
 
 # Example
-# try:
-#     fd = open("data.txt","r")
-#     line = fd.readline()
+try:
+    fd = open("data.txt","r")
+    line = fd.readline()
 
-# except FileNotFoundError:
-#     print("File not found")
-# else:
-#     print("File opend successfully")
-#     print(line)
-# finally:
-#     # if 'fd' in locals():
-#       fd.close()
-#     print("File closed")
-# '''
-# File opend successfully
-# 1,sakshi,89
+except FileNotFoundError:
+    print("File not found")
+else:
+    print("File opend successfully")
+    print(line)
+finally:
+    if 'fd' in locals():
+      fd.close()
+    print("File closed")
+'''
+File opend successfully
+1,sakshi,89
 
-# File closed
-# '''
+File closed
+'''
 
 # 3) readlines() : Read all lines from a file and return list of lines
-# lines_list = fd.readlines()
+lines_list = fd.readlines()
 
 # Example
-# try:
-#     fd = open("data.txt","r")
-#     lines = fd.readlines()
+try:
+    fd = open("data.txt","r")
+    lines = fd.readlines()
 
-# except FileNotFoundError:
-#     print("File not found")
-# else:
-#     print("File opend successfully")
-#     for line in lines:
-#         roll,name,marks = line.strip().split(",")
-#         print(f"rollNumber : {roll}, name : {name}, marks : {marks}")
-# finally:
-#     print("This Block always execute")
-#     if 'fd' in locals():
-#         fd.close()
-#     print("File closed")
-# '''
-# File opend successfully
-# rollNumber : 1, name : sakshi, marks : 89
-# rollNumber : 2, name : sojar, marks : 78
-# rollNumber : 3, name : pranjali, marks : 68
-# This Block always execute
-# File closed    
-# '''
-# import os
-# print(os.getcwd)
+except FileNotFoundError:
+    print("File not found")
+else:
+    print("File opend successfully")
+    for line in lines:
+        roll,name,marks = line.strip().split(",")
+        print(f"rollNumber : {roll}, name : {name}, marks : {marks}")
+finally:
+    print("This Block always execute")
+    if 'fd' in locals():
+        fd.close()
+    print("File closed")
+'''
+File opend successfully
+rollNumber : 1, name : sakshi, marks : 89
+rollNumber : 2, name : sojar, marks : 78
+rollNumber : 3, name : pranjali, marks : 68
+This Block always execute
+File closed    
+'''
+import os
+print(os.getcwd)
 
 # write operation
 try:
