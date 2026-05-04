@@ -1,0 +1,4 @@
+-- unique -- 
+-- check --
+-- default --
+-- foreing key --
