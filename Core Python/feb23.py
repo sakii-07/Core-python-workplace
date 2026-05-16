@@ -68,10 +68,3 @@ if(i_num2 == s_num2):
     print("armstrong number")
 else:
     print("not armstrong")
-
-
-
-
-
-
-
