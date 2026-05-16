@@ -1,0 +1,61 @@
+# WAP to reverse each word of a string
+sen = "The Kiran acadamy"
+l = sen.split()
+l2 = []
+for word in l:
+    rev = ""
+    for ch in word:
+        rev = ch + rev
+    l2.append(rev)
+print(" ".join(l2))
+
+
+# WAP to calculate total sum all even numbers from a list
+l = [1,2,3,4,5,6,7,8,9,10]
+sum = 0
+for n in l:
+    if n%2 == 0:
+        sum += 1
+print(sum)
+
+# WAp to calculate total number character in each word of given ssentence
+sen = "The kiran acadamy"
+d = {}
+for word in sen.split():
+    count =0
+    for ch in word:
+        count += 1
+    d[word] = count
+print(d)
+
+# 
+word = "madam"
+longest = ""
+for ch in word:
+    for i in range(len(word)):
+        for j in range(i+1,len(word)+1):
+	    sub = word[i:j]
+	    if sub == sub[::-1] and len(sub)>len(longest):
+		longest = sub
+print(longest)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
