@@ -28,7 +28,7 @@ for word in sen.split():
     d[word] = count
 print(d)
 
-# 
+# longest palindrome string
 word = "madam"
 longest = ""
 for ch in word:
@@ -38,24 +38,3 @@ for ch in word:
 	    if sub == sub[::-1] and len(sub)>len(longest):
 		longest = sub
 print(longest)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
