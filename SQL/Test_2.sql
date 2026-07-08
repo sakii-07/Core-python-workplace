@@ -40,7 +40,7 @@ update employee set profile = "support" where name = "radha";
 
 -- 10 --
 select salary as "Second Max salary" from employee order by salary desc limit 1,1;
-select max(salary) from employee where salary < (select max(salary) from employee);
+select max(salary) as "Second Max salary" from employee where salary < (select max(salary) from employee);
 
 -- 11 -- 
 select salary as "Second min salary" from employee order by salary limit 1,1;
@@ -55,5 +55,4 @@ select name, salary from employee where experiance = (select min(experiance) fro
 select name from employee where age = (select min(age) from employee) and salary = (select max(salary) from employee);
 
 -- 15 --
-SET SQL_SAFE_UPDATES = 0;
 delete from employee;

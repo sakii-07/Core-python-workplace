@@ -164,7 +164,7 @@ print(c)
 
 
 
-word = "acadamy"
+word = "sacasdamy"
 longest = ""
 
 for ch in word:
@@ -175,4 +175,16 @@ for ch in word:
             if sub == sub[::-1] and len(sub)>len(longest):
                 longest = sub
 
+print(longest)
+
+word  = "acadaasddsamy"
+longest = ""
+
+for ch in word:
+    for i in range(len(word)):
+        for j in range(i+1,len(word)+1):
+            sub = word[i:j]
+
+            if sub[::-1] == sub and len(sub) > len(longest):
+                longest = sub
 print(longest)

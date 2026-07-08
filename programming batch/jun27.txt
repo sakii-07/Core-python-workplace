@@ -1,0 +1,10 @@
+# oop - OOP stand for object-oriented programming language, where we can structure our program using classes and objects just like real word entity.
+We can convert anything in the world into code. It basically helps to maintain and reduce the redundancy of code.
+
+
+Inheritance - Inheritance is one of the main pillars of oop where one class access properties and behaviour of another class. It is used for reusability and to reduce the redundancy of code. We can achieve method overriding using inheritance. It is basically used for less memory usage because we can use methods and attributes of both classes using a single object of the child class. Ex- if we have a car class, then electric car and CNG car have some behaviour and properties like a car
+
+
+Encapsulation - Encapsulation is a process of binding data, methods, and methods into a single unit, like a class.
+It restricts direct access of data. We achieve encapsulation by making all methods and attributes private and accessing them by using setter and getter methods.
+It is basically used for data security and controlled access to data. ex- in bank application, when we withdraw money, first check user is authorised or not, then procced next process.

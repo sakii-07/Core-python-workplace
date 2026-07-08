@@ -36,8 +36,8 @@ def registerEmp(eid,ename,sal,dept,c_name="Tcs"):
 
 registerEmp(101,"sakshi",23000,"QA") # 101 sakshi 23000 QA Tcs
 
-def registerEmp(eid,ename,sal=12000,dept,c_name):
-    print(eid,ename,sal,dept,c_name)
+# def registerEmp(eid,ename,sal=12000,dept,c_name):
+#     print(eid,ename,sal,dept,c_name)
 
 registerEmp(101,"sakshi","QA","tcs") # SyntaxError: parameter without a default follows parameter with a default
 
